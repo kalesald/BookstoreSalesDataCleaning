@@ -6,7 +6,7 @@ This project focuses on cleaning and analyzing bookstore sales data, comprising 
 
 ## Key Objectives
 - **Handle Missing Data**: Replace missing values in `Email`, `PhoneNumber`, and `Address` with default values ("Unknown" or "00000").
-- **Standardize Data Formats**: Ensure consistent formatting for `PhoneNumber` by replacing `x` and `.` with `-`, and convert `PurchaseDate` to a datetime format.
+- **Standardize Data Formats**: Ensure consistent formatting for `PhoneNumber` and convert `PurchaseDate` to a datetime format.
 - **Data Validation**: Filter out invalid purchase amounts and ensure all numerical values are properly formatted.
 - **Data Integrity**: Remove duplicate entries based on `CustomerID` to maintain the uniqueness of each customer.
 
